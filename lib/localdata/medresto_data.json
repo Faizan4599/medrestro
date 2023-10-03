@@ -1,0 +1,186 @@
+{
+  "categories": [
+    {
+      "name": "main_category",
+      "items": [
+        {
+          "main_category_id": 1,
+          "main_category_name": "veg",
+          "main_category_active": 1
+        },
+        {
+          "main_category_id": 2,
+          "main_category_name": "non_veg",
+          "main_category_active": 1
+        },
+        {
+          "main_category_id": 3,
+          "main_category_name": "beverage",
+          "main_category_active": 1
+        },
+        {
+          "main_category_id": 4,
+          "main_category_name": "dessert",
+          "main_category_active": 1
+        },
+        {
+          "main_category_id": 5,
+          "main_category_name": "bread",
+          "main_category_active": 1
+        }
+      ]
+    }
+  ],
+  "subcategories": [
+    {
+      "name": "sub_category",
+      "items": [
+        {
+          "main_category_name": "veg",
+          "sub_cat_id": 1,
+          "sub_cat_name": "chinese",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "veg",
+          "sub_cat_id": 2,
+          "sub_cat_name": "south_indian",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "veg",
+          "sub_cat_id": 3,
+          "sub_cat_name": "north_indian",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "veg",
+          "sub_cat_id": 4,
+          "sub_cat_name": "maharashtrian",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "beverage",
+          "sub_cat_id": 5,
+          "sub_cat_name": "hot_beverage",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "beverage",
+          "sub_cat_id": 6,
+          "sub_cat_name": "cold_beverage",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "dessert",
+          "sub_cat_id": 7,
+          "sub_cat_name": "ice_cream",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "dessert",
+          "sub_cat_id": 8,
+          "sub_cat_name": "veg_cake",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "non_veg",
+          "sub_cat_id": 9,
+          "sub_cat_name": "chinese",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "non_veg",
+          "sub_cat_id": 10,
+          "sub_cat_name": "south_indian",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "non_veg",
+          "sub_cat_id": 11,
+          "sub_cat_name": "north_indian",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "non_veg",
+          "sub_cat_id": 12,
+          "sub_cat_name": "maharashtrian",
+          "sub_cat_active": 1
+        },
+        {
+          "main_category_name": "bread",
+          "sub_cat_id": 13,
+          "sub_cat_name": "indian_bread",
+          "sub_cat_active": 1
+        }
+      ]
+    }
+  ],
+  "menu": [
+    {
+      "name": "menus",
+      "items": [
+        {
+          "menu_id": 1,
+          "main_category_name": "veg",
+          "sub_cat_name": "maharashtrian",
+          "category": "veg",
+          "item_name": "Veg Kohlapuri",
+          "item_code": "#1012",
+          "item_price": 160,
+          "menu_active": 1
+        },
+        {
+          "menu_id": 2,
+          "main_category_name": "non_veg",
+          "sub_cat_name": "maharashtrian",
+          "category": "non_veg",
+          "item_name": "Mutton Rassa",
+          "item_code": "#1012",
+          "item_price": 160,
+          "menu_active": 1
+        },
+        {
+          "menu_id": 3,
+          "main_category_name": "beverage",
+          "sub_cat_name": "hot_beverage",
+          "category": "beverage",
+          "item_name": "Black Coffe",
+          "item_code": "#1012",
+          "item_price": 110,
+          "menu_active": 1
+        },
+        {
+          "menu_id": 4,
+          "main_category_name": "veg",
+          "sub_cat_name": "chinese",
+          "category": "chinese",
+          "item_name": "Hakka Noodles",
+          "item_code": "#1013",
+          "item_price": 170,
+          "menu_active": 1
+        },
+        {
+          "menu_id": 5,
+          "main_category_name": "bread",
+          "sub_cat_name": "indian_bread",
+          "category": "indian_bread",
+          "item_name": "tandoori roti",
+          "item_code": "#1015",
+          "item_price": 20,
+          "menu_active": 1
+        },
+        {
+          "menu_id": 6,
+          "main_category_name": "non_veg",
+          "sub_cat_name": "chinese",
+          "category": "chinese",
+          "item_name": "Chicken fried rice",
+          "item_code": "#1016",
+          "item_price": 170,
+          "menu_active": 1
+        }
+      ]
+    }
+  ]
+}
